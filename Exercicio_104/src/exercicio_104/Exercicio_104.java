@@ -18,7 +18,7 @@ public class Exercicio_104 {
         System.out.println("Qual o seu sexo(F,M)?:");
         sexo = teclado.next();
         
-        if(idade <= 25 && (sexo.equals("F") || sexo.equals("f"))){
+        if(idade <= 25 && sexo.toUpperCase().equals("F")){
             System.out.println("ACEITA");
         }else{
             System.out.println("NAO ACEITA");
