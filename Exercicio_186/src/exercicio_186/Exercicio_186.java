@@ -15,8 +15,8 @@ public class Exercicio_186 {
             System.out.println("insira o "+ i +" numero:");
             numero = teclado.nextInt();
             
-            System.out.println("Cubo: "+ Math.pow(numero, 3));
-            System.out.println("Raiz cubo: "+ Math.cbrt(numero));
+            System.out.println("Cubo: %s".formatted(Math.pow(numero, 3)));
+            System.out.println("Raiz cubo: %.3f".formatted(Math.cbrt(numero)));
             
         }
     }
